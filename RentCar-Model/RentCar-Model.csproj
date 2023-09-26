@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>RentCar_Model</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\RentCar-Model.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\RentCar-Model.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\RentCar-Model.deps.json" />
+    <Content Include="obj\Debug\net6.0\RentCar-Model.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\RentCar-Model.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\RentCar-Model.dll" />
+    <None Include="bin\Debug\net6.0\RentCar-Model.pdb" />
+    <None Include="obj\Debug\net6.0\refint\RentCar-Model.dll" />
+    <None Include="obj\Debug\net6.0\ref\RentCar-Model.dll" />
+    <None Include="obj\Debug\net6.0\RentCar-Model.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\RentCar-Model.assets.cache" />
+    <None Include="obj\Debug\net6.0\RentCar-Model.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\RentCar-Model.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\RentCar-Model.dll" />
+    <None Include="obj\Debug\net6.0\RentCar-Model.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\RentCar-Model.pdb" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\RentCar-Model.csproj.nuget.g.props" />
+    <None Include="obj\RentCar-Model.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.13" />
+  </ItemGroup>
+
+</Project>
